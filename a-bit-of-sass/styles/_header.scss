@@ -1,0 +1,22 @@
+// @mixin flexCenter($direction, $background) {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+header {
+//   @include flexCenter(column, rgb(241, 106, 106));
+
+  height: 100vh;
+  color: $rextColor;
+  background: rgb(231, 167, 167);
+  button {
+    background: $primaryBtn;
+    &::after {
+      content: "Olala";
+    }
+  }
+}

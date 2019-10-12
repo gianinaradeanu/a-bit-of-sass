@@ -1,0 +1,18 @@
+header, .contact {
+  height: 100vh;
+  color: #6a0606;
+  background: #e7a7a7;
+}
+
+header button, .contact button {
+  background: #00edff;
+}
+
+header button::after, .contact button::after {
+  content: "Olala";
+}
+
+.contact {
+  background: #91f5f5;
+}
+/*# sourceMappingURL=style.css.map */
